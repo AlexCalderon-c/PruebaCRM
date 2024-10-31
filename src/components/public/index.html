@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRM</title>
+    <link rel="stylesheet" href="../static/css/styles.css">
+</head>
+<body>
+    <header class="header__menu">
+        <nav class="header__menu-nav">
+            <a href="#" class="header__menu-nav-logo">Logo</a>
+            <ul class="header__menu-nav-list">
+                <li class="header__menu-nav-list-element">Dashboard</li>
+                <li class="header__menu-nav-list-element">Clientes</li>
+                <li class="header__menu-nav-list-element">Ventas</li>
+                <li class="header__menu-nav-list-element">Reportes</li>
+                <li class="header__menu-nav-list-element">Configuración</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main__section">
+        <aside class="main__section--sidepanel">
+            <div class="sidepanel__container">
+                <h3>Filtros</h3>
+                <ul>
+                    <li>Filtro 1</li>
+                    <li>Filtro 2</li>
+                    <li>Filtro 3</li>
+                </ul>
+            </div>
+            <div class="sidepanel__container">
+                <h3>Estadísticas</h3>
+                <ul>
+                    <li>Estadística 1</li>
+                    <li>Estadística 2</li>
+                    <li>Estadística 3</li>
+                </ul>
+            </div>
+        </aside>
+
+        <section class="main__section--content">
+            <div class="content__header">
+                <h2>Gestión de Clientes</h2>
+                <div class="content__actions">
+                    <button class="action__button">Añadir Cliente</button>
+                    <button class="action__button">Exportar Datos</button>
+                </div>
+            </div>
+
+            <div class="client-grid">
+                <div class="client-grid__header">Nombre</div>
+                <div class="client-grid__header">Correo</div>
+                <div class="client-grid__header">Teléfono</div>
+                <div class="client-grid__header">Estado</div>
+
+                <div class="client-grid__item">Juan Pérez</div>
+                <div class="client-grid__item">juan.perez@mail.com</div>
+                <div class="client-grid__item">+57 3001234567</div>
+                <div class="client-grid__item">Contactado</div>
+
+                <div class="client-grid__item">María Gómez</div>
+                <div class="client-grid__item">maria.gomez@mail.com</div>
+                <div class="client-grid__item">+57 3007654321</div>
+                <div class="client-grid__item">Sin Contactar</div>
+
+                <div class="client-grid__item">Carlos Ruiz</div>
+                <div class="client-grid__item">carlos.ruiz@mail.com</div>
+                <div class="client-grid__item">+57 3009876543</div>
+                <div class="client-grid__item">Contactado</div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
